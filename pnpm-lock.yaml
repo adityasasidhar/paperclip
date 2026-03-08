@@ -35,9 +35,9 @@ importers:
       '@paperclipai/adapter-cursor-local':
         specifier: workspace:*
         version: link:../packages/adapters/cursor-local
-      '@paperclipai/adapter-openclaw':
+      '@paperclipai/adapter-gemini-local':
         specifier: workspace:*
-        version: link:../packages/adapters/openclaw
+        version: link:../packages/adapters/gemini-local
       '@paperclipai/adapter-openclaw-gateway':
         specifier: workspace:*
         version: link:../packages/adapters/openclaw-gateway
@@ -139,7 +139,7 @@ importers:
         specifier: ^5.7.3
         version: 5.9.3
 
-  packages/adapters/openclaw:
+  packages/adapters/gemini-local:
     dependencies:
       '@paperclipai/adapter-utils':
         specifier: workspace:*
@@ -261,9 +261,9 @@ importers:
       '@paperclipai/adapter-cursor-local':
         specifier: workspace:*
         version: link:../packages/adapters/cursor-local
-      '@paperclipai/adapter-openclaw':
+      '@paperclipai/adapter-gemini-local':
         specifier: workspace:*
-        version: link:../packages/adapters/openclaw
+        version: link:../packages/adapters/gemini-local
       '@paperclipai/adapter-openclaw-gateway':
         specifier: workspace:*
         version: link:../packages/adapters/openclaw-gateway
@@ -379,9 +379,9 @@ importers:
       '@paperclipai/adapter-cursor-local':
         specifier: workspace:*
         version: link:../packages/adapters/cursor-local
-      '@paperclipai/adapter-openclaw':
+      '@paperclipai/adapter-gemini-local':
         specifier: workspace:*
-        version: link:../packages/adapters/openclaw
+        version: link:../packages/adapters/gemini-local
       '@paperclipai/adapter-openclaw-gateway':
         specifier: workspace:*
         version: link:../packages/adapters/openclaw-gateway
