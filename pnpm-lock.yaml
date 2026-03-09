@@ -35,9 +35,6 @@ importers:
       '@paperclipai/adapter-cursor-local':
         specifier: workspace:*
         version: link:../packages/adapters/cursor-local
-      '@paperclipai/adapter-gemini-local':
-        specifier: workspace:*
-        version: link:../packages/adapters/gemini-local
       '@paperclipai/adapter-openclaw-gateway':
         specifier: workspace:*
         version: link:../packages/adapters/openclaw-gateway
